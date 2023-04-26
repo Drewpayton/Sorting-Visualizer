@@ -1,7 +1,24 @@
 *{
     margin: 0;
+    border-style: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 nav{
+    display: flex;
+    justify-content: space-evenly;
     background-color: crimson;
+    padding: 1rem;
+    align-items: center;
+    text-shadow: 5px 5px 30px rgb(27, 27, 27);
 }
+
+nav .nav-container {
+    display: flex;
+
+}
+
+nav .nav-container h3{
+    margin: 0 2.5rem 0 2.5rem;
+}
+
