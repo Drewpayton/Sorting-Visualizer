@@ -4,6 +4,10 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+body {
+    background-color: whitesmoke;
+}
+
 nav{
     display: flex;
     justify-content: space-evenly;
@@ -17,6 +21,13 @@ nav a {
     text-decoration: none;
     color: inherit;
 }
+
+nav a:hover {
+    color: goldenrod;
+    font-size: larger;
+    transition: 0.4s;
+}
+
 nav .nav-container {
     display: flex;
 
