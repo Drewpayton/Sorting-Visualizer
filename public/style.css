@@ -20,12 +20,13 @@ nav{
 nav a {
     text-decoration: none;
     color: inherit;
+    transition: 0.4s linear;
 }
 
 nav a:hover {
     color: goldenrod;
     font-size: larger;
-    transition: 0.4s;
+    transition: 0.4s linear;
 }
 
 nav .nav-container {
