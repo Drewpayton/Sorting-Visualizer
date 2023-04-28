@@ -38,3 +38,7 @@ nav .nav-container h3{
     margin: 0 2.5rem 0 2.5rem;
 }
 
+.container {
+    width: 100vw;
+    height: 92vh;
+}
